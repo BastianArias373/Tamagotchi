@@ -1,4 +1,4 @@
-class Tamagochi:
+class Tamagotchi:
 
     def __init__(self,nombre,humor):
         self.nombre = nombre
@@ -31,5 +31,5 @@ class Tamagochi:
         else:
             self.esta_vivo = False
 
-tama1 = Tamagochi("Tama1","Feliz")
+tama1 = Tamagotchi("Tama1","Feliz")
 tama1.mostrar_estado()
